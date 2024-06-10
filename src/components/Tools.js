@@ -1,9 +1,15 @@
+import { motion } from "framer-motion";
 import React from "react";
 
 const Tools = () => {
   return (
     <div className=" py-20">
-      <div className=" flex md:gap-6 gap-3 justify-center items-center overflow-hidden">
+      <motion.div
+        initial={{ x: 0 }}
+        whileInView={{ x: "-10%" }}
+        transition={{ duration: 1.5 }}
+        className=" flex md:gap-6 gap-3 justify-center items-center"
+      >
         <span className=" rounded-md md:text-4xl text-sm min-w-max  bg-gradient-to-r from-[#284453] to-[#303335] px-4 py-2 ">
           Avatar
         </span>
@@ -28,8 +34,13 @@ const Tools = () => {
         <span className=" rounded-md md:text-4xl text-sm min-w-max bg-gradient-to-r from-[#284453] to-[#303335] px-4 py-2 ">
           Engineering
         </span>
-      </div>
-      <div className=" flex md:gap-6 gap-3 justify-center items-center overflow-hidden mt-5">
+      </motion.div>
+      <motion.div
+        initial={{ x: 0 }}
+        whileInView={{ x: "10%" }}
+        transition={{ duration: 1.5 }}
+        className=" flex md:gap-6 gap-3 justify-center items-center mt-5"
+      >
         <span className=" rounded-md md:text-4xl text-sm min-w-max  bg-gradient-to-r from-[#284453] to-[#303335] px-4 py-2 ">
           Artificial Intelligence
         </span>
@@ -57,7 +68,7 @@ const Tools = () => {
         <span className=" rounded-md md:text-4xl text-sm min-w-max bg-gradient-to-r from-[#284453] to-[#303335] px-4 py-2 ">
           Realistic
         </span>
-      </div>
+      </motion.div>
     </div>
   );
 };

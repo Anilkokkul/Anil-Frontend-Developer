@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 
 const Phase1 = () => {
@@ -27,13 +28,19 @@ const Phase1 = () => {
             </li>
           </ul>
         </div>
-        <div className="w-[40%] h-[70vh]">
+
+        <motion.div
+          initial={{ x: "20%", y: "20%" }}
+          whileInView={{ x: "-10%", y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="w-[40%] h-[70vh]"
+        >
           <img
             src="/phase1.png"
             alt="phase1"
             className=" relative right-[-20%] h-full w-full rounded-2xl"
           />
-        </div>
+        </motion.div>
       </div>
       <div className=" flex p-10 justify-center items-center">
         <div className=" w-[70%] p-20">
@@ -56,13 +63,18 @@ const Phase1 = () => {
             <li className="leading-7">Hive stellar velas flow cardano.</li>
           </ul>
         </div>
-        <div className="w-[40%] h-[70vh]">
+        <motion.div
+          initial={{ x: "20%", y: "20%" }}
+          whileInView={{ x: "-10%", y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="w-[40%] h-[70vh]"
+        >
           <img
             src="/phase2.png"
             alt="phase3"
             className=" relative right-[-15%] h-full w-full rounded-2xl"
           />
-        </div>
+        </motion.div>
       </div>
       <div className=" flex p-10 justify-center items-center">
         <div className=" w-[70%] p-20">
@@ -81,13 +93,18 @@ const Phase1 = () => {
             </li>
           </ul>
         </div>
-        <div className="w-[40%] h-[70vh]">
+        <motion.div
+          initial={{ x: "20%", y: "20%" }}
+          whileInView={{ x: "-10%", y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="w-[40%] h-[70vh]"
+        >
           <img
             src="/phase3.png"
             alt="phase3"
             className=" relative right-[-20%] h-full w-full rounded-2xl"
           />
-        </div>
+        </motion.div>
       </div>
     </div>
   );

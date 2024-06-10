@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import React from "react";
 
 const Products = () => {
@@ -9,12 +10,19 @@ const Products = () => {
             AI <br /> Outfits
           </h1>
           <div className=" bg-[#ec9294] rounded-t-xl h-[45%] w-full ">
-                <img src="/red-shoe.png" alt="red-shoe" className=" w-56 absolute translate-x-1/2 top-[200px] drop-shadow-2xl" />
+            <motion.img
+              transition={{ duration: 2 }}
+              whileInView={{ rotate: "-25deg" }}
+              src="/red-shoe.png"
+              alt="red-shoe"
+              className=" w-60 relative mx-auto top-[-40px] drop-shadow-2xl"
+            />
           </div>
         </div>
         <div className=" bg-[#2a2728] w-[55%] h-[500px] text-center flex flex-col justify-between rounded-3xl overflow-hidden">
           <h1 className=" text-4xl mt-10">
-            Realistic AI<br /> Avatar
+            Realistic AI
+            <br /> Avatar
           </h1>
           <div className=" h-[60%]">
             <img
