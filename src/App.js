@@ -6,8 +6,11 @@ import Phase1 from "./components/Phase1";
 import Products from "./components/Products";
 import Tokenomics from "./components/Tokenomics";
 import Tools from "./components/Tools";
+import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
+  const locomotiveScroll = new LocomotiveScroll();
+
   return (
     <div className="App">
       <LandingPage />
@@ -16,7 +19,7 @@ function App() {
       <Tools />
       <Products />
       <Tokenomics />
-      <Phase1/>
+      <Phase1 />
     </div>
   );
 }

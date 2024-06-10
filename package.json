@@ -9,6 +9,7 @@
     "ajv": "^8.6.3",
     "ajv-keywords": "^5.1.0",
     "framer-motion": "^11.2.10",
+    "locomotive-scroll": "^5.0.0-beta.13",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",

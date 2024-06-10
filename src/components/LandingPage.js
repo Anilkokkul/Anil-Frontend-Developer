@@ -1,9 +1,9 @@
 import React from "react";
-import { delay, motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const LandingPage = () => {
   return (
-    <div className=" mx-auto w-full relative overflow-hidden ">
+    <div className=" mx-auto w-full relative overflow-hidden">
       <nav className="flex justify-between items-center p-6 relative z-10 backdrop-blur-md ">
         <div className=" flex items-center justify-start gap-5">
           <div className=" text-2xl font-bold tracking-[8px]">AI.GEN</div>
@@ -38,8 +38,12 @@ const LandingPage = () => {
             Get Started
           </button>
         </header>
-        <aside className="flex absolute md:relative top-[-30px] right-[-90px] -z-1 gap-12">
-          <div className=" flex flex-col gap-10">
+        <aside className="flex md:relative top-[-30px] right-[-90px] -z-1 gap-12">
+          <div
+            data-scroll
+            data-scroll-speed=".2"
+            className=" flex flex-col gap-10"
+          >
             <img
               src="/elonMusk.png"
               alt="Profile 1"
@@ -73,7 +77,11 @@ const LandingPage = () => {
               className=" w-44 h-44 object-cover rounded-xl"
             />
           </div>
-          <div className="flex flex-col gap-10">
+          <div
+            data-scroll
+            data-scroll-speed=".2"
+            className="flex flex-col gap-10"
+          >
             <img
               src="/elonMusk.png"
               alt="Profile 1"
