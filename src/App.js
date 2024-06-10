@@ -9,7 +9,7 @@ import Tools from "./components/Tools";
 import LocomotiveScroll from "locomotive-scroll";
 
 function App() {
-  const locomotiveScroll = new LocomotiveScroll();
+  new LocomotiveScroll();
 
   return (
     <div className="App">

@@ -124,7 +124,11 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className=" absolute w-full h-full top-0 flex justify-center items-center">
+      <div
+        data-scroll
+        data-scroll-speed=".2"
+        className=" absolute w-full h-full top-0 flex justify-center items-center"
+      >
         <h1 className=" text-5xl w-[55%] text-center">
           <span className=" text-transparent bg-clip-text bg-gradient-to-r from-[#fac96b] to-[#fe9c9a]">
             Create, customize, and publish
