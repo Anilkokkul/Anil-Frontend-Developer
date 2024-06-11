@@ -7,7 +7,7 @@ const Phase1 = () => {
       <h1 className="text-center text-5xl my-10 text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-fuchsia-500">
         Roadmap
       </h1>
-      <div className=" flex p-10 justify-center items-center">
+      <div className=" flex p-20 justify-center items-center">
         <div className=" w-[70%] p-20">
           <h1 className="text-transparent bg-clip-text bg-gradient-to-r ml-10 from-[#faca6d] to-[#fa78f2] text-5xl font-semibold">
             PHASE 1
@@ -31,7 +31,7 @@ const Phase1 = () => {
 
         <motion.div
           initial={{ x: "20%", y: "20%" }}
-          whileInView={{ x: "-10%", y: 0 }}
+          whileInView={{ x: "-10%", y: 0,scale:1.2 }}
           transition={{ duration: 0.8 }}
           className="w-[40%] h-[70vh]"
         >
@@ -42,7 +42,7 @@ const Phase1 = () => {
           />
         </motion.div>
       </div>
-      <div className=" flex p-10 justify-center items-center">
+      <div className=" flex p-20 justify-center items-center">
         <div className=" w-[70%] p-20">
           <h1 className="text-transparent bg-clip-text bg-gradient-to-r ml-10 from-[#faca6d] to-[#fa78f2] text-5xl font-semibold">
             PHASE 2
@@ -65,7 +65,7 @@ const Phase1 = () => {
         </div>
         <motion.div
           initial={{ x: "20%", y: "20%" }}
-          whileInView={{ x: "-10%", y: 0 }}
+          whileInView={{ x: "-10%", y: 0,scale:1.2 }}
           transition={{ duration: 0.8 }}
           className="w-[40%] h-[70vh]"
         >
@@ -76,7 +76,7 @@ const Phase1 = () => {
           />
         </motion.div>
       </div>
-      <div className=" flex p-10 justify-center items-center">
+      <div className=" flex p-20 justify-center items-center">
         <div className=" w-[70%] p-20">
           <h1 className="text-transparent bg-clip-text bg-gradient-to-r ml-10 from-[#faca6d] to-[#fa78f2] text-5xl font-semibold">
             PHASE 3
@@ -95,7 +95,7 @@ const Phase1 = () => {
         </div>
         <motion.div
           initial={{ x: "20%", y: "20%" }}
-          whileInView={{ x: "-10%", y: 0 }}
+          whileInView={{ x: "-10%", y: 0 ,scale:1.2}}
           transition={{ duration: 0.8 }}
           className="w-[40%] h-[70vh]"
         >

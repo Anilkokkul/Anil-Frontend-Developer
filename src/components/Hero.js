@@ -5,103 +5,99 @@ const Hero = () => {
     <div className=" relative">
       <div className=" lg:py-20 lg:px-48 flex relative gap-10 w-full justify-center items-center opacity-25">
         <div className=" flex flex-col gap-8 ">
+          <img src="/7-1.png" alt="pic-1" className=" w-36 h-36 rounded-lg" />
           <img
-            src="/nutral-pic.png"
-            alt="pic-1"
-            className=" w-36 h-36 rounded-lg"
-          />
-          <img
-            src="/nutral-pic-2.png"
+            src="/7-2.png"
             alt="pic-2"
             className=" w-36 h-36 rounded-lg object-cover"
           />
           <img
-            src="/nutral-pic-3.png"
+            src="/7-3.png"
             alt="pic-3"
             className=" w-36 h-36 rounded-lg object-cover"
           />
         </div>
         <div className=" flex flex-col gap-8 relative top-[-70px]">
           <img
-            src="/nutral-pic.png"
+            src="/6-1.png"
             alt="pic-1"
             className=" w-36 h-36 rounded-lg object-cover"
           />
           <img
-            src="/nutral-pic-2.png"
+            src="/6-2.png"
             alt="pic-2"
             className=" w-36 h-36 rounded-lg object-cover"
           />
           <img
-            src="/nutral-pic-3.png"
+            src="/6-3.png"
             alt="pic-3"
             className=" w-36 h-36 rounded-lg object-cover"
           />
         </div>
         <div className=" flex flex-col gap-8 ">
           <img
-            src="/nutral-pic.png"
+            src="/5-1.png"
             alt="pic-1"
             className=" w-36 h-36 rounded-lg object-cover"
           />
           <img
-            src="/nutral-pic-2.png"
+            src="/5-2.png"
             alt="pic-2"
             className=" w-36 h-36 rounded-lg object-cover"
           />
           <img
-            src="/nutral-pic-3.png"
+            src="/5-3.png"
             alt="pic-3"
             className=" w-36 h-36 rounded-lg object-cover"
           />
         </div>
         <div className=" flex flex-col gap-8 relative top-[-70px]">
           <img
-            src="/nutral-pic.png"
+            src="/4-1.png"
             alt="pic-1"
             className=" w-36 h-36 rounded-lg object-cover"
           />
           <img
-            src="/nutral-pic-2.png"
+            src="/4-2.png"
             alt="pic-2"
             className=" w-36 h-36 rounded-lg object-cover"
           />
           <img
-            src="/nutral-pic-3.png"
+            src="/4-3.png"
             alt="pic-3"
             className=" w-36 h-36 rounded-lg object-cover"
           />
         </div>
         <div className=" flex flex-col gap-8 ">
           <img
-            src="/nutral-pic.png"
+            src="/3-1.png"
             alt="pic-1"
             className=" w-36 h-36 rounded-lg object-cover"
           />
           <img
-            src="/nutral-pic-2.png"
+            src="/3-2.png"
             alt="pic-2"
             className=" w-36 h-36 rounded-lg object-cover"
           />
           <img
-            src="/nutral-pic-3.png"
+            src="/3-3.png"
             alt="pic-3"
             className=" w-36 h-36 rounded-lg object-cover"
           />
         </div>
         <div className=" flex flex-col gap-8 relative top-[-70px]">
           <img
-            src="/nutral-pic.png"
+            src="/2-1.png"
             alt="pic-1"
             className=" w-36 h-36 rounded-lg object-cover"
           />
           <img
-            src="/nutral-pic-2.png"
+            src="/2-2.png"
             alt="pic-2"
             className=" w-36 h-36 rounded-lg object-cover"
           />
           <img
-            src="/nutral-pic-3.png"
+            src="/2-3.png"
             alt="pic-3"
             className=" w-36 h-36 rounded-lg object-cover"
           />

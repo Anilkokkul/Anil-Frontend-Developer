@@ -1,5 +1,6 @@
 import "./App.css";
 import Avatar from "./components/Avatar";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import LandingPage from "./components/LandingPage";
 import Phase1 from "./components/Phase1";
@@ -20,6 +21,7 @@ function App() {
       <Products />
       <Tokenomics />
       <Phase1 />
+      <Footer />
     </div>
   );
 }

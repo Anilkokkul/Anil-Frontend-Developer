@@ -44,13 +44,18 @@ const Products = () => {
           <h1 className=" text-4xl mt-10">
             AI Powered Voice <br /> Generator
           </h1>
-          <div className=" h-[60%]">
+          <motion.div
+            initial={{ height: "50%" }}
+            whileInView={{ height: "60%" }}
+            transition={{ duration: 2, ease: [0.22, 1, 0.36, 1] }}
+            className=" h-[60%]"
+          >
             <img
               src="/Avatar-ai.png"
               className=" h-full w-full object-cover"
               alt=""
             />
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

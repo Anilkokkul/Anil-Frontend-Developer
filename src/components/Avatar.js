@@ -17,12 +17,16 @@ const Avatar = () => {
   return (
     <div className=" md:flex justify-start items-center gap-10 p-5 relative md:left-[-150px]">
       <motion.div
-        initial={{ y: "20%", height: "300px" }}
+        initial={{ y: "10%", height: "100px" }}
         whileInView={{ y: 0, height: "100%" }}
         transition={{ duration: 2 }}
-        className="md:w-[60%] md:rounded-r-lg rounded-lg overflow-hidden object-cover"
+        className="md:w-[60%] md:rounded-r-lg rounded-lg overflow-hidden"
       >
-        <img src="/Avatar-ai.png" alt="avatar-ai" className="overflow-hidden" />
+        <img
+          src="/Avatar-ai.png"
+          alt="avatar-ai"
+          className=" object-cover h-full w-full"
+        />
       </motion.div>
       <div>
         <h1 className=" md:text-7xl text-3xl mt-5 font-semibold">
