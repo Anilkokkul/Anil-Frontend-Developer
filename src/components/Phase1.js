@@ -3,16 +3,16 @@ import React from "react";
 
 const Phase1 = () => {
   return (
-    <div className=" relative p-5">
+    <div className=" relative md:p-5">
       <h1 className="text-center text-5xl my-10 text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-fuchsia-500">
         Roadmap
       </h1>
-      <div className=" flex p-20 justify-center items-center">
-        <div className=" w-[70%] p-20">
+      <div className=" lg:flex lg:p-20 p-5 mt-10 justify-center items-center">
+        <div className=" lg:w-[70%] lg:p-20">
           <h1 className="text-transparent bg-clip-text bg-gradient-to-r ml-10 from-[#faca6d] to-[#fa78f2] text-5xl font-semibold">
             PHASE 1
           </h1>
-          <ul className=" list-disc text-left text-xl ml-20  mt-10 ">
+          <ul className=" list-disc text-left text-xl ld:ml-20 ml-10  mt-10 ">
             <li className="leading-7">
               Horizen dai dai harmony dogecoin waves nexo.
             </li>
@@ -33,21 +33,28 @@ const Phase1 = () => {
           initial={{ x: "20%", y: "20%" }}
           whileInView={{ x: "-10%", y: 0, scale: 1.2 }}
           transition={{ duration: 0.8 }}
-          className="w-[40%] h-[70vh]"
+          className="w-[40%] lg:h-[70vh]"
         >
           <img
             src="/phase1.png"
             alt="phase1"
-            className=" relative right-[-20%] h-full w-full rounded-2xl"
+            className=" hidden lg:block  lg:relative lg:right-[-20%] h-full w-full rounded-2xl"
           />
         </motion.div>
+        <div className="mt-5">
+          <img
+            src="/phase1.png"
+            alt="phase1"
+            className="lg:hidden lg:relative lg:right-[-20%] h-full w-full rounded-2xl"
+          />
+        </div>
       </div>
-      <div className=" flex p-20 justify-center items-center">
-        <div className=" w-[70%] p-20">
+      <div className=" lg:flex lg:p-20 p-5 mt-10 justify-center items-center">
+        <div className=" lg:w-[70%] lg:p-20">
           <h1 className="text-transparent bg-clip-text bg-gradient-to-r ml-10 from-[#faca6d] to-[#fa78f2] text-5xl font-semibold">
             PHASE 2
           </h1>
-          <ul className=" list-disc text-left text-xl ml-20  mt-10 ">
+          <ul className=" list-disc text-left text-xl ld:ml-20 ml-10  mt-10 ">
             <li className="leading-7">
               BitTorrent dai dogecoin crypto nexo nexo cosmos tezos ox
               PancakeSwap.
@@ -67,21 +74,28 @@ const Phase1 = () => {
           initial={{ x: "20%", y: "20%" }}
           whileInView={{ x: "-10%", y: 0, scale: 1.2 }}
           transition={{ duration: 0.8 }}
-          className="w-[40%] h-[70vh]"
+          className="w-[40%] lg:h-[70vh]"
         >
           <img
             src="/phase2.png"
             alt="phase3"
-            className=" relative right-[-15%] h-full w-full rounded-2xl"
+            className=" hidden lg:block  lg:relative lg:right-[-20%] h-full w-full rounded-2xl"
           />
         </motion.div>
+        <div className="mt-5">
+          <img
+            src="/phase2.png"
+            alt="phase3"
+            className=" lg:hidden lg:relative lg:right-[-20%] h-full w-full rounded-2xl"
+          />
+        </div>
       </div>
-      <div className=" flex p-20 justify-center items-center">
-        <div className=" w-[70%] p-20">
+      <div className=" lg:flex lg:p-20 p-5 mt-10 justify-center items-center">
+        <div className=" lg:w-[70%] lg:p-20">
           <h1 className="text-transparent bg-clip-text bg-gradient-to-r ml-10 from-[#faca6d] to-[#fa78f2] text-5xl font-semibold">
             PHASE 3
           </h1>
-          <ul className=" list-disc text-left text-xl ml-20  mt-10 ">
+          <ul className=" list-disc text-left text-xl ld:ml-20 ml-10  mt-10 ">
             <li className="leading-7">
               Revain audius bitcoin revain PancakeSwap elrond ipsum ethereum.
             </li>
@@ -97,14 +111,21 @@ const Phase1 = () => {
           initial={{ x: "20%", y: "20%" }}
           whileInView={{ x: "-10%", y: 0, scale: 1.2 }}
           transition={{ duration: 0.8 }}
-          className="w-[40%] h-[70vh]"
+          className="w-[40%] lg:h-[70vh]"
         >
           <img
             src="/phase3.png"
             alt="phase3"
-            className=" relative right-[-20%] h-full w-full rounded-2xl"
+            className=" hidden lg:block  lg:relative lg:right-[-20%] h-full w-full rounded-2xl"
           />
         </motion.div>
+        <div className="mt-5">
+          <img
+            src="/phase3.png"
+            alt="phase3"
+            className=" lg:hidden lg:relative lg:right-[-20%] h-full w-full rounded-2xl"
+          />
+        </div>
       </div>
     </div>
   );

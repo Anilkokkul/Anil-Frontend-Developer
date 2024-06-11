@@ -22,8 +22,8 @@ const LandingPage = () => {
           </button>
         </div>
       </nav>
-      <div className=" md:flex p-10">
-        <header className=" md:w-[50%] md:ml-44 mt-24">
+      <div className=" md:flex p-10 relative">
+        <header className=" md:w-[50%] md:ml-44 mt-24 relative z-10">
           <button className=" border px-2 py-1 text-sm rounded-lg bg-slate-900 border-slate-400">
             🎉 New in AI.GEN: Real Time Interaction
           </button>
@@ -38,7 +38,7 @@ const LandingPage = () => {
             Get Started
           </button>
         </header>
-        <aside className="flex md:relative top-[-30px] right-[-90px] -z-1 gap-12">
+        <aside className="flex md:relative absolute top-0 justify-center opacity-15 lg:opacity-100 items-center right-0 lg:top-[-30px] lg:right-[-90px] -z-1 gap-12">
           <div
             data-scroll
             data-scroll-speed=".2"
