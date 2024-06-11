@@ -3,7 +3,7 @@ import React from "react";
 
 const Phase1 = () => {
   return (
-    <div className="  p-5">
+    <div className=" relative p-5">
       <h1 className="text-center text-5xl my-10 text-transparent bg-clip-text bg-gradient-to-r from-violet-500 to-fuchsia-500">
         Roadmap
       </h1>
@@ -31,7 +31,7 @@ const Phase1 = () => {
 
         <motion.div
           initial={{ x: "20%", y: "20%" }}
-          whileInView={{ x: "-10%", y: 0,scale:1.2 }}
+          whileInView={{ x: "-10%", y: 0, scale: 1.2 }}
           transition={{ duration: 0.8 }}
           className="w-[40%] h-[70vh]"
         >
@@ -65,7 +65,7 @@ const Phase1 = () => {
         </div>
         <motion.div
           initial={{ x: "20%", y: "20%" }}
-          whileInView={{ x: "-10%", y: 0,scale:1.2 }}
+          whileInView={{ x: "-10%", y: 0, scale: 1.2 }}
           transition={{ duration: 0.8 }}
           className="w-[40%] h-[70vh]"
         >
@@ -95,7 +95,7 @@ const Phase1 = () => {
         </div>
         <motion.div
           initial={{ x: "20%", y: "20%" }}
-          whileInView={{ x: "-10%", y: 0 ,scale:1.2}}
+          whileInView={{ x: "-10%", y: 0, scale: 1.2 }}
           transition={{ duration: 0.8 }}
           className="w-[40%] h-[70vh]"
         >

@@ -1,7 +1,7 @@
 .App {
   font-family: outfit;
   color: white;
-  background: linear-gradient(10deg, rgb(24, 22, 22), rgb(26, 26, 60), black);
+  background: linear-gradient(10deg, rgb(29, 26, 26), rgb(26, 26, 60), black);
   overflow: hidden;
   /* background-repeat: repeat; */
 }
