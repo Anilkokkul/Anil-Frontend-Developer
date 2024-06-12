@@ -1,4 +1,5 @@
 import React from "react";
+import { RiMenu4Fill } from "react-icons/ri";
 // import { motion } from "framer-motion";
 
 const LandingPage = () => {
@@ -6,14 +7,19 @@ const LandingPage = () => {
     <div className=" mx-auto w-full relative overflow-hidden">
       <nav className="flex justify-between items-center p-6 relative z-10 backdrop-blur-md ">
         <div className=" flex items-center justify-start gap-5">
-          <div className=" text-2xl font-bold tracking-[8px]">AI.GEN</div>
-          <ul className=" list-none flex gap-5">
+          <div className="md:block hidden text-2xl font-bold tracking-[8px]">
+            AI.GEN
+          </div>
+          <div className="md:hidden text-2xl font-bold tracking-[8px]">
+            AVATAR. AI
+          </div>
+          <ul className="hidden list-none md:flex gap-5">
             <li>Features</li>
             <li>Roadmap</li>
             <li>Tokenomics</li>
           </ul>
         </div>
-        <div className="flex gap-3">
+        <div className="md:flex hidden gap-3">
           <button className=" rounded-md py-3 px-6 border-0 backdrop-opacity-50 bg-slate-900 ">
             Whitepaper
           </button>
@@ -21,6 +27,9 @@ const LandingPage = () => {
             Get Started
           </button>
         </div>
+        <button className=" md:hidden text-xl p-2 rounded-full bg-[#14141f] cursor-pointer">
+          <RiMenu4Fill />
+        </button>
       </nav>
       <div className=" md:flex p-10 relative">
         <header className=" md:w-[50%] md:ml-44 mt-24 relative z-10">

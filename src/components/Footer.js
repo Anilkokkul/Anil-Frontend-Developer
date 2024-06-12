@@ -132,20 +132,20 @@ const Footer = () => {
           <FaArrowRight className=" lg:text-5xl text-xl mr-[5%]" />
         </div>
       </div>
-      <div className="flex justify-between items-center py-20">
+      <div className="lg:flex justify-between items-center py-20 gap-5">
         <div className=" w-[350px] lg:text-xl text-sm">
           Dash dash terraUSD neo uniswap kadena helium avalanche polymath
           bancor.
         </div>
-        <div className=" text-right">
+        <div className=" text-right mt-10 lg:mt-0">
           <div>Looking for help?</div>
-          <div className=" mt-2">
+          <div className=" mt-2 ">
             <input
               type="text"
-              className=" border-2 bg-transparent rounded-md lg:h-10 h-5 w-44 p-2"
+              className=" border-2 bg-transparent rounded-md h-10 lg:w-44 w-[70%] p-2"
               placeholder="Enter your email"
             />{" "}
-            <button className="bg-gradient-to-r px-4 py-2 h-10 ml-1 rounded-md from-[#8158b8] to-[#c85ec6]">
+            <button className="bg-gradient-to-r px-4 py-2 h-10 ml-1 rounded-md w-[28%] from-[#8158b8] to-[#c85ec6]">
               Submit
             </button>
           </div>
